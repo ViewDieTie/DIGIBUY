@@ -1,90 +1,89 @@
 *{
-	margin: 0;
-	padding: 0;
-	font-family: Century Gothic;
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
 }
 
-body {
-	background-image:url("1.jpg");
-	height: 100vh;
-	background-color: rgba(0, 0.1, 0, 0.5);
+header{
+    background-image:url("1.jpg");
+    height: 100vh;
+    background-color: rgba(0, 0.1, 0, 0.5);
     background-blend-mode: overlay;
-	background-size: cover;
-	 background-attachment: fixed;
+    background-size: cover;
+     background-attachment: fixed;
 }
 
 ul{
     float: right;
-	List-style-type: none;
-	margin-top: 25px;
+    List-style-type: none;
+    margin-top: 25px;
 
 }
 
 ul li{
-	display: inline-block;
+    display: inline-block;
 }
 
 ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 20px;
-	border: 1px solid transparent;
-	transition: 0.6s ease;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
 }
 ul li a:hover{
-	background-color: #fff;
-	color: #000;
+    background-color: #fff;
+    color: #000;
 }
 
 ul li.active a{
-	background-color: #fff;
-	color: #000;
+    background-color: #fff;
+    color: #000;
 }
 .logo img{
-	float: left;
-	width: 150px;
-	height: auto;
+    float: left;
+    width: 150px;
+    height: auto;
 }
 
 .main{
-	max-width: 1200px;
-	margin: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .title h1{
-	color: #fff;
-	font-size: 70px;
+    color: #fff;
+    font-size: 70px;
 
 }
 
 .button{
-	position: absolute;
-	top: 63%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .btn{
-	border: 1px solid #fff;
-	padding: 10px 30px;
-	color: #fff;
-	text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
     transition: 0.6s ease;
 
 }
 
 .btn:hover{
-	background-color: #fff;
-	color: #000;
+    background-color: #fff;
+    color: #000;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -155,5 +154,3 @@ a{
         #79ff6c
         );
         border-radius: 3px;
-
-
